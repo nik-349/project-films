@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/project-films.git"
+    "url": "git+https://github.com/nik349/project-films.git"
   },
   "keywords": [],
   "author": "Nik Gavriluk",
@@ -29,3 +29,4 @@
     "sass": "^1.32.8"
   }
 }
+
