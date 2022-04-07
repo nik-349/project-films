@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film</title>
 </head>
-<body>
+<body class="">
     <header class="container backgound-image">
         <div class="flex" >
-            <div class="" >
-                <svg class="svg change-color" widht="24px" height="24px">
-                    <use class="svge" href="/src/images/symbol.svg#icon-film">
+            <div class="logo flex" > 
+                <svg class="svg animation change-color" widht="24px" height="24px">
+                    <use class="" href="/src/images/symbol.svg#icon-film">
                 </svg>
+                <h1 class="logo-text">Filmoteka</h1>
             </div>
             <div class="flex navigation">
-                <a class="text-header" href="">HOME</a>
-                <a class="text-header" href="">MI LIBRERI</a>
+                <a class="text-header home-after-line" href="">HOME</a>
+                <a class="text-header lib-after-line " href="">MI LIBRERI</a>
+                <a class="text-header home-after-line jsback mob" href="">LOGIN</a>
             </div>
             
         </div>
@@ -27,9 +29,23 @@
                     <button type="submit" class="button-search"><span class="ttt"><svg class="search-icon change-color" widht="12px" height="12px">
                         <use href="/src/images/symbol.svg#icon-search">
                     </svg></span></button>
+                    
                 </form>
         </div>
     </header>
+    <footer>
+        <div class="footer">
+            <h1>© 2020 | All Rights Reserved | Developed with <span></span>by GoIT Students</h1>
+
+        </div>
+    </footer>
+
+    <div class="login-container display-none" >
+        <form action="" id="login">
+            <input type="text"placeholder="Login">
+            <input type="text"placeholder="Password">
+        </form>
+    </div>
 
 </body>
 </html>
