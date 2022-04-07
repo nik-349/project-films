@@ -1,0 +1,116 @@
+@media screen and (min-width: 320px) {
+    // .header-pc {
+    //     display: block
+    // }
+
+    // .header-mobile {
+    //     display: none
+    // }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container {
+        width: 320px;
+        height: 230px;
+        left: 0px;
+        top: 0px;
+    }
+    .flex{
+        display: flex;
+        // flex-direction: row;
+
+    }
+    // .search-box{
+        // margin-top: 100px;
+    // }
+        .backgound-image{
+            background-image: url('../images/Rectangle\ 1.jpg');
+            // opacity:0.8;
+            // -moz-opacity:0.8;
+            // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            // -khtml-opacity: 0.8;
+        }
+        .navigation{
+            margin-left: 112px;
+            padding-top: 44px;
+        }
+.text-header:not(:last-child) {
+    margin-right: 30px
+    
+}
+//======================================================//
+.search-box{
+    // position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.search-input::placeholder{
+    color: #FFFFFF;
+}
+.search-input{
+width: 280px;
+height: 20px;
+background-color: transparent;
+color: #FFFFFF;
+outline: none;
+border: none;
+
+}
+.button-search{
+    position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 20px;
+    height: 20px;
+    left: 280px;
+    top: 127px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.change-color:hover,
+:focus {
+    --color1: #FF6B08;
+    --color2:#FF6B08;
+
+}
+
+.search-icon{   
+
+    width: 12px;
+    height: 12px;
+    --color2:#FFFFFF;
+}
+//==============================================================//
+.svg{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+    --color1: #818181;
+}
+.text-header:hover,:focus{
+color: #FF6B08;
+}
+    .text-header{
+        font-size: 12px;
+        line-height: 14px;
+        color:#ffffff;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    // .header-pc {
+    //     display: none
+    // }
+
+    // .header-mobile {
+    //     display: block
+    // }
+    
+
+}
