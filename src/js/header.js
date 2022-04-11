@@ -19,3 +19,4 @@ function closeNav(e) {
         ref.header.classList.remove('overlay')
     }
 }
+console.log('skdj')
